@@ -99,22 +99,13 @@ class _MyHomePageState extends State<MyHomePage> {
       //adadcaddcca
       //!kdkdkmdnjcns
       //?asmdsndcdncnsue
-      body: Container(
-        child: Stack(
-          children: [
-            SizedBox(height: 300, child: Center(child: Text('Flutter'))),
-            ListTile(
-              leading: Icon(Icons.join_full),
-              title: Text('ini List Tile'),
-              tileColor: Colors.red,
-              trailing: Text('ini adalah trailing'),
-              onTap: () {
-                print('list tile telah di klik');
-                print('hahhahaha');
-              },
-            ),
-          ],
-        ),
+      body: Wrap(
+        children: [
+          Text(
+            'AHAHAAKSJ            uabuxbabiuxaib         uasubxiabxaiubdu          cdscsdvsg',
+          ),
+          Text('AHAHAAKSJ            uabuxbabiuxaib         uasubxiabxaiubdu'),
+        ],
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
